@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando o Capítulo 2 de "Extraordinário"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .person {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 0 10px;
+        }
+        .person h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        .tab button.active {
+            background-color: #ccc;
+        }
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+        }
+        .book-cover {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explorando o Capítulo 2 de "Extraordinário"</h1>
+    </header>
+    <main>
+        <img src="/home/ideas/Downloads/extra" alt="Capa do livro Extraordinário" class="book-cover">
+        
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'apresentador1')">Apresentador 1</button>
+            <button class="tablinks" onclick="openTab(event, 'apresentador2')">Apresentador 2</button>
+            <button class="tablinks" onclick="openTab(event, 'apresentador3')">Apresentador 3</button>
+        </div>
+
+        <div id="apresentador1" class="tabcontent">
+            <div class="person">
+                <h3>Apresentador 1</h3>
+                <div class="section">
+                    <h2>Resumo do Capítulo 2</h2>
+                    <p>No Capítulo 2, somos apresentados ao protagonista, August (Auggie) Pullman, um garoto com uma condição facial incomum. Ele se prepara para começar o quinto ano em uma escola regular pela primeira vez, enfrentando desafios emocionais e sociais.</p>
+                </div>
+                <div class="section">
+                    <h2>Principais Eventos</h2>
+                    <ul>
+                        <li>August se prepara para iniciar a escola pela primeira vez.</li>
+                        <li>Ele compartilha suas expectativas e medos em relação à escola.</li>
+                        <li>August encontra apoio em sua família, especialmente em sua irmã Via e sua mãe Isabel.</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Amizades e Desafios</h2>
+                    <p>A experiência de August na escola é marcada por encontros e desafios, incluindo sua tentativa de fazer novos amigos e lidar com a reação de seus colegas à sua aparência.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="apresentador2" class="tabcontent">
+            <div class="person">
+                <h3>Apresentador 2</h3>
+                <div class="section">
+                    <h2>Personagens</h2>
+                    <p>Além de August Pullman, outros personagens importantes apresentados no Capítulo 2 incluem:</p>
+                    <ul>
+                        <li>Via Pullman - Irmã de August, que o apoia durante sua transição para a escola.</li>
+                        <li>Isabel Pullman - Mãe de August, que é uma fonte de amor e encorajamento para ele.</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Temas Abordados</h2>
+                    <p>O Capítulo 2 aborda temas como amizade, autoaceitação e superação de desafios, conforme August enfrenta suas ansiedades e se adapta a um novo ambiente escolar.</p>
+                </div>
+                <div class="section">
+                    <h2>Autoaceitação e Empatia</h2>
+                    <p>Ao longo do capítulo, August começa a explorar sua própria identidade e a entender melhor as perspectivas e emoções dos outros, levando a momentos de autoaceitação e empatia.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="apresentador3" class="tabcontent">
+            <div class="person">
+                <h3>Apresentador 3</h3>
+                <div class="section">
+                    <h2>Citação Importante</h2>
+                    <blockquote>
+                        <p>"Quando você passa tanto tempo se escondendo de todo mundo, às vezes é fácil esquecer quem você realmente é."</p>
+                    </blockquote>
+                </div>
+                <div class="section">
+                    <h2>Gráficos e Mídia</h2>
+                    <p>Imagens relacionadas ao Capítulo 2 e ao livro "Extraordinário" podem ser exibidas aqui para enriquecer a apresentação.</p>
+                </div>
+                <div class="section">
+                    <h2>Impacto e Relevância</h2>
+                    <p>O livro "Extraordinário" toca em questões universais de identidade, aceitação e compaixão, oferecendo insights valiosos para leitores de todas as idades.</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(tabName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
+    </main>
+    <footer class="footer">
+    
+    </footer>
+</body>
+</html>
